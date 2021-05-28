@@ -6,5 +6,10 @@ pipeline{
                 echo "docker"
             }
         }
+        stage(build){
+            steps{
+                echo "build"
+            }
+        }
     }
 }
